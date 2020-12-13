@@ -1,0 +1,98 @@
+.home_page{
+    background: url(../Resources/444.jpg);
+    background-size: cover;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+}
+
+.t{
+    border-collapse: collapse;
+    cursor: pointer;
+    background-color: #999999;
+    opacity: 70%;
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.t tr{
+    padding: 10px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 24px;
+}
+
+.t th{
+    padding: 10px;
+    border-right: 4px solid #33ff33;
+}
+.t td{
+    padding: 10px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 20px;
+}
+
+.logout{
+    margin-left: 85%;
+    width: 190px;
+    background: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 0;
+    color: #000;
+    line-height: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.logout:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.change{
+    border-radius: 15px;
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 100px;
+    height: 600px;
+    margin-left: 75%;
+    margin-top: -150px;
+    text-align: center;
+}
+
+.text{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'segoe ui',sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.con{
+    margin-top: 20px;
+    width: 190px;
+    background: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 0;
+    color: #000;
+    line-height: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.con:hover{
+    background-color: yellow;
+    color: black;
+}

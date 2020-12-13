@@ -1,0 +1,264 @@
+.dropbtn{
+    cursor: pointer;
+    background-color: #333333;
+    color: #cccccc;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: 'segoe ui';
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'segoe ui';
+    z-index: 1
+}
+
+.dropdown_content a:hover{background-color: #ddd; z-index: 1}
+
+.dropdown:hover .dropdown_content{display: block; z-index: 1}
+
+.dropdown:hover .bropbtn{background-color: #3e8e41; z-index: 1}
+
+.mainspn{
+    font-size: 70px;
+    font-family: 'segoe ui';
+    color: #ffffff;
+}
+
+.menu{
+    opacity: 0.9;
+    background-color: #333333;
+    background-size: auto;
+}
+
+.body1{
+    background-image: url(../Resources/gym.jpg);
+    background-size: 100%;
+}
+
+.sltdbtn{
+    position: absolute;
+    margin-top: 50px;
+    width: 17.5%;
+    padding: 12px 16px;
+    background-color: #cccccc;
+    color: #ffff00;
+    border: none;
+    font-family: 'segoe ui';
+    opacity: 0.9;
+}
+
+.side_content{
+    margin-top: 102px;
+    width: 20%;
+    cursor: pointer;
+    background-color: #333333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: 48px;
+    opacity: 0.9;
+}
+
+.side_content a {
+    color: #cccccc;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'segoe ui';
+}
+
+.content{
+    position: absolute;
+    width: 75%;
+    height: 72%;
+    margin-top: 146px;
+    margin-left: 22%;
+    margin-right: 10px;
+    background: #999999;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 19%;
+    height: 95%;
+    background: #333333;
+    float: left;
+    margin-top: 146px;
+    margin: 10px 5px;
+}
+
+.box:hover{
+    transform: scale(1.2);
+}
+
+.img{
+    position: absolute;
+    width: 220px;
+    height: 500px;
+    
+}
+
+.imgslide{
+    width: 1012px;
+    height: 527px;
+}
+
+.slider{
+    overflow: hidden;
+    height: 527px;
+}
+
+.slider figure div{
+    float: left;
+    width: 20%;
+}
+
+.slider figure img{
+    width: 100%;
+    float: left;
+}
+
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0;
+    animation: 20s rotate infinite;
+}
+
+input[type="button"]{
+    margin-right: 50px;
+    margin-left: 200px;
+    margin-top: -50px;
+    width: 190px;
+    background: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 0;
+    color: #000;
+    line-height: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover{
+    background-color: yellow;
+    color: black;
+}
+
+input[type="submit"]{
+    margin-left: 20px;
+    width: 190px;
+    background: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 0;
+    color: #000;
+    line-height: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: yellow;
+    color: black;
+}
+
+@keyframes rotate{
+    0%{
+        left: 0%;
+    }10%{
+        left: -100%;
+    }20%{
+        left: -200%;
+    }30%{
+        left: -300%;
+    }40%{
+        left: -400%;
+    }50%{
+        left: -400%;
+    }60%{
+        left: -300%;
+    }70%{
+        left: -200%;
+    }80%{
+        left: -100%;
+    }90%{
+        left: 0%;
+    }100%{
+        left: 0%;
+    }
+}
+
+.descri{
+    opacity: 0.9;
+    background-color: #2b223a;
+    color: #dfe6da;
+    font-family: sans-serif;
+    font-size: 12px;
+    height: 550px;
+    width: 300px;
+    position: absolute;
+    margin-left: 78%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.t{
+    border-collapse: collapse;
+    cursor: pointer;
+    background-color: #999999;
+    opacity: 70%;
+    color: white;
+}
+.t tr{
+    padding: 20px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 32px;
+}
+
+.t th{
+    padding: 20px;
+    border-right: 4px solid #33ff33;
+}
+.t td{
+    padding: 20px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 28px;
+}
+
+select{
+    width: 200px;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 28px;
+    margin-top: 50px;
+    margin-left: 50px;
+}

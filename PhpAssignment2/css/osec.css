@@ -1,0 +1,134 @@
+.signin_page{
+    background: url(../Resources/wraith.jpg);
+    background-size: cover;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+}
+
+.signup_page{
+    background: url(../Resources/tracer.jpg);
+    background-size: cover;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+}
+
+.login_form{
+    border-radius: 15px;
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 100px;
+    height: 400px;
+    margin-left: 65%;
+    text-align: center;
+}
+
+.signup_form{
+    border-radius: 15px;
+    background: rgba(44,62,80,0.9);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+    height: 450px;
+    margin-left: 15%;
+    text-align: center;
+}
+
+form{
+    width: 240px;
+    text-align: center;
+}
+
+.text{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'segoe ui',sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+
+input[type="submit"]{
+    width: 190px;
+    background: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 0;
+    color: #000;
+    line-height: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+input[type="button"]{
+    width: 190px;
+    background: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 0;
+    color: #999999;
+    line-height: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+a{
+    color: yellow;
+    text-decoration: blink;
+}
+
+.devl{
+    position: absolute;
+    margin-left: 200x;
+    margin-top: 10%;
+    font-family: 'Forte',sans-serif;
+    font-size: 30px;
+    color: azure;
+}
+
+input[type="submit"]:hover{
+    background-color: yellow;
+    color: black;
+}
+
+input[type="button"]:hover{
+    background-color: #0000ff;
+    color: white;
+}
+
+a:hover{
+    color: skyblue;
+}
+
+.t{
+    border-collapse: collapse;
+    cursor: pointer;
+    background-color: #999999;
+    opacity: 70%;
+    color: white;
+}
+.t tr{
+    padding: 20px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 24px;
+}
+
+.t th{
+    padding: 18px;
+    border-right: 4px solid #33ff33;
+}
+.t td{
+    padding: 18px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 20px;
+}
